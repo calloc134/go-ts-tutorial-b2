@@ -1,0 +1,23 @@
+{
+  "name": "fastify-tutorial",
+  "version": "1.0.0",
+  "description": "Fastify tutorial project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "fastify start server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "fastify",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/mongodb": "^9.0.2",
+    "fastify": "^5.4.0",
+    "fastify-cli": "^7.4.0",
+    "fastify-plugin": "^5.0.1"
+  }
+}
